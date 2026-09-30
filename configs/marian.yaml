@@ -1,0 +1,9 @@
+model_name: "Helsinki-NLP/opus-mt-en-ru"
+dataset_path: "data/processed/marian_train.jsonl"
+output_dir: "outputs/marian_checkpoint"
+
+batch_size: 16
+learning_rate: 0.00005
+epochs: 3
+max_length: 128
+device: "cuda"

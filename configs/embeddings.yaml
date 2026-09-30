@@ -1,0 +1,19 @@
+model_path: "C:/Users/Svetozar/PycharmProjects/code_overlay/models/moondream2"
+dataset_path: "data/processed/tokens_train.jsonl"
+output_dir: "outputs/embeddings_checkpoint"
+
+new_tokens:
+  - "<code_start>"
+  - "<code_end>"
+  - "<error_start>"
+  - "<error_end>"
+  - "<fix_start>"
+  - "<fix_end>"
+  - "<bbox>"
+  - "</bbox>"
+
+batch_size: 4
+learning_rate: 0.0001
+epochs: 3
+max_length: 256
+device: "cuda"
