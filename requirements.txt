@@ -1,0 +1,10 @@
+# visual
+PyQt6>=6.6.0
+
+# vision
+opencv-python
+
+# utils
+keyboard>=0.13.5
+psutil>=5.9.0
+transformers==4.40.2
